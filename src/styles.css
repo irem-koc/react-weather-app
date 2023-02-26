@@ -1,0 +1,30 @@
+.select-section{
+    background-color: #f6fafd;
+    display: flex;
+    margin:5px;
+    padding: 15px;
+}
+select{
+    padding: 5px;
+    border-radius: 3px;
+}
+select:focus{
+    outline: none;
+}
+
+.days{
+    border:1px solid lightcoral;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.seven-days{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    width: 100px;
+    image-resolution: 100dpi;
+}
